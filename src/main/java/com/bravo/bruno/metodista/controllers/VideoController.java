@@ -17,7 +17,7 @@ public class VideoController {
 		this.repository = repository;
 	}
 	
-	@GetMapping("/employees")
+	@GetMapping("/videos")
 	List<Video> all() {
 		return repository.findAll();
 	}
