@@ -1,4 +1,4 @@
-package com.bravo.bruno.metodista_app;
+package com.bravo.bruno;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
