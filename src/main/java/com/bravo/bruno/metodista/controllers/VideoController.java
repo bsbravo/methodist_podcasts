@@ -3,6 +3,7 @@ package com.bravo.bruno.metodista.controllers;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bravo.bruno.metodista.data.Video;
@@ -20,6 +21,12 @@ public class VideoController {
 	@GetMapping("/videos")
 	List<Video> all() {
 		return repository.findAll();
+	}
+	
+	@GetMapping("/videos/{id}")
+	Video one(@PathVariable Long id) {
+
+		return repository.findById(id).orElseThrow(RuntimeException::new);
 	}
 
 }
