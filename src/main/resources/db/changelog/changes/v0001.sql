@@ -16,9 +16,7 @@ create table Episode (
   primary key (id)
 );
 
-
 create table CountPlays (
   idEpisode bigint not null primary key references Episode(id),
   count bigint
-  
 );
