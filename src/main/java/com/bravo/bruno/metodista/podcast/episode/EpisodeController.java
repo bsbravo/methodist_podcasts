@@ -4,7 +4,9 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
 
+
 @RestController
+@RequestMapping("api")
 public class EpisodeController {
 	
 	private final EpisodeRepository repository;
@@ -17,7 +19,7 @@ public class EpisodeController {
 	List<Episode> all() {
 		return repository.findAll();
 	}
-	
+
 	@PostMapping("/episodes")
 	Episode newEpisode(@RequestBody Episode newEpisode) {
 		return repository.save(newEpisode);
