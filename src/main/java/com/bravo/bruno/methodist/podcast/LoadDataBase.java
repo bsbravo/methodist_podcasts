@@ -1,4 +1,4 @@
-package com.bravo.bruno.metodista.podcast;
+package com.bravo.bruno.methodist.podcast;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,8 +8,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.bravo.bruno.metodista.podcast.episode.Episode;
-import com.bravo.bruno.metodista.podcast.episode.EpisodeRepository;
+import com.bravo.bruno.methodist.podcast.episode.Episode;
+import com.bravo.bruno.methodist.podcast.episode.EpisodeRepository;
 
 @Configuration
 @Slf4j

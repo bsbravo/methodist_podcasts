@@ -1,4 +1,4 @@
-package com.bravo.bruno.metodista.podcast.episode;
+package com.bravo.bruno.methodist.podcast.episode;
 
 import java.util.List;
 

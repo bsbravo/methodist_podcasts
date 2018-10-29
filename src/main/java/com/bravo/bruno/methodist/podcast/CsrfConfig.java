@@ -1,4 +1,4 @@
-package com.bravo.bruno.metodista.podcast;
+package com.bravo.bruno.methodist.podcast;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

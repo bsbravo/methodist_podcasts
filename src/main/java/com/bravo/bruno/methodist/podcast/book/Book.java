@@ -1,4 +1,4 @@
-package com.bravo.bruno.metodista.podcast.book;
+package com.bravo.bruno.methodist.podcast.book;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

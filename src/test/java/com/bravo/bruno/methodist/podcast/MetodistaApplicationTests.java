@@ -1,4 +1,4 @@
-package com.bravo.bruno.metodista.podcast;
+package com.bravo.bruno.methodist.podcast;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
