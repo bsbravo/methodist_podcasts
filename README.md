@@ -1,1 +1,1 @@
-Project using thyneleaf
+Project using thymeleaf
